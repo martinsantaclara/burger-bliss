@@ -9,8 +9,8 @@ const Footer = () => {
   ];
 
   const contactInfo = {
-    address: '123 Burger Street, Flavor City, FC 12345',
-    phone: '(555) 123-4567',
+    address: '123 Burger Street, Flavor Town, FT 12345',
+    phone: '(555) 123-BURGER',
     email: 'hello@burgerbliss.com',
   };
 
