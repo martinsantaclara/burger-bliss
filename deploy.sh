@@ -42,6 +42,12 @@ else
   # Push
   echo "📤 Pushing to GitHub..."
   git push
+
+  # Save to Engram memory
+  echo "💾 Remember to save deployment to Engram:"
+  echo "   Run: engram_mem_save with project 'burger-bliss' after successful deploy"
 fi
 
 echo "✅ Deployment complete!"
+echo ""
+echo "📌 Don't forget to save this change to Engram memory!"
