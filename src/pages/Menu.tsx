@@ -122,7 +122,7 @@ const Menu = () => {
             onClick={() => setSelectedCategory(category)}
             className={`px-4 py-2 rounded-full transition ${
               selectedCategory === category
-                ? "bg-hamburger-meat text-white"
+                ? "bg-hamburger-meat text-orange-700"
                 : "bg-gray-200 text-gray-700 hover:bg-gray-300"
             }`}
           >
@@ -197,7 +197,7 @@ const Menu = () => {
                     }
                     className={`px-3 py-1 rounded-full text-sm transition ${
                       customizations.includes(option)
-                        ? "bg-hamburger-lettuce text-white"
+                        ? "bg-hamburger-lettuce text-hamburger-bun"
                         : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                     }`}
                   >

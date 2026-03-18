@@ -26,7 +26,7 @@ const Header = () => {
                 to={link.to}
                 className={`px-3 py-2 rounded-md transition ${
                   location.pathname === link.to
-                    ? 'bg-hamburger-meat text-white'
+                    ? 'bg-hamburger-meat text-orange-700'
                     : 'text-hamburger-meat hover:bg-hamburger-meat/20'
                 }`}
               >
